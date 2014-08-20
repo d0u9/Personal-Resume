@@ -101,6 +101,71 @@ body {
 	float: left;
 }
 .row2 {
-	background-color: #0066CC;
-	height: 200px;
+	overflow: auto;
 }
+.row2 .left {
+	width: 450px;
+	float: left;
+}
+.row2 .right {
+	width: 450px;
+	float: right;
+}
+.content .row2 .caption {
+	background-size: 24px 24px;
+	background-repeat: no-repeat;
+	padding: 0 0 8px 40px;
+	height: 24px;
+	color: #498db6;
+	font-size: 18px;
+	line-height: 24px;
+	border-bottom: solid 1px #CCC;
+
+}
+.personal-detial {
+	background-image: url(images/information.png);
+}
+.education {
+	background-image: url(images/education.png);
+}
+.content .row2 .item {
+	height: 30px;
+	line-height: 30px;
+	font-size: 15px;
+	border-bottom: solid 1px #CCC;
+}
+.content .row2 .item .key {
+	float: left;
+	color: #999;
+	width: 100px;
+	font-weight: lighter;
+}
+.content .row2 .right .item .key {
+	width: 190px;
+}
+.content .row2 .item .value {
+	background-size: 30px 30px;
+	background-repeat: no-repeat;
+	padding-left: 35px;
+	float: left;
+}
+.content .row2 .item .user {
+	background-image: url(images/user.png);
+}
+.content .row2 .item .date-of-birth {
+	background-image: url(images/calendar.png);
+}
+.content .row2 .item .web {
+	background-image: url(images/web.png);
+}
+.content .row2 .item .phone {
+	background-image: url(images/phone.png);
+}
+.content .row2 .item .mail {
+	background-image: url(images/mail.png);
+}
+.content .row2 .item .none-background {
+	background-image: none;
+	padding-left: 0;
+}
+
