@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body, p{
-	font-family: "Open Sans";
+	font-family: "Open Sans", 'helvetica neue', arial, sans-serif;;
 	margin: 0px;
 	padding: 0px;
 }
@@ -59,35 +59,48 @@ body {
 .content p {
 	line-height: 24px;
 }
-.content .row1 {
-	height: 120px;
+.row1 {
+	height: 110px;
 	width: 930px;
 	color: #CCCCCC;
 	font-size: 14px;
 	font-weight: lighter;
 }
-.content .row1 .name-professional {
+.row1 .name-professional {
 	width: 260px;
 	overflow: auto;
 	float: left;
 }
-.content .row1 .name {
+.row1 .name {
 	font-weight: lighter;
 	font-size: 36px;
 	letter-spacing: 0.1em;
 	color: #000000;
 }
-.content .row1 .professional {
+.row1 .professional {
 	font-weight: lighter;
 	font-size: 15px;
 	line-height: 22px;
 }
-.content .row1 .caption-description {
-	width: 300px;
+.row1 .caption-description {
 	margin-top: 10px;
+	font-size: 12px;
 	float: left;
 }
-.content .row1 .caption-description .caption {
+.row1 .address {
+	width: 395px;
+	margin-top: 10px;
+	font-size: 12spx;
+	float: left;
+}
+.row1 .contact {
+	width: 250px;
+	margin-top: 10px;
+	font-size: 12px;
+	float: left;
+}
+.row1 .caption-description .caption {
+	font-size: 16px;
 	height: 70px;
 	float: left;
 	padding: 0 10px 0 0;
@@ -95,7 +108,7 @@ body {
 	color: #CCCCCC;
 	font-style: italic;
 }
-.content .row1 .caption-description .description {
+.row1 .caption-description .description {
 	padding: 0 0 0 10px;
 	height: 70px;
 	float: left;
@@ -111,13 +124,13 @@ body {
 	width: 450px;
 	float: right;
 }
-.content .row2 .caption {
+.row .caption {
 	background-size: 24px 24px;
 	background-repeat: no-repeat;
 	padding: 0 0 8px 40px;
 	height: 24px;
 	color: #498db6;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 24px;
 	border-bottom: solid 1px #CCC;
 
@@ -125,47 +138,81 @@ body {
 .personal-detial {
 	background-image: url(images/information.png);
 }
-.education {
-	background-image: url(images/education.png);
-}
-.content .row2 .item {
+.row2 .item {
 	height: 30px;
 	line-height: 30px;
 	font-size: 15px;
 	border-bottom: solid 1px #CCC;
 }
-.content .row2 .item .key {
+.row2 .item .key {
 	float: left;
 	color: #999;
 	width: 100px;
 	font-weight: lighter;
 }
-.content .row2 .right .item .key {
-	width: 190px;
-}
-.content .row2 .item .value {
+.row2 .item .value {
 	background-size: 30px 30px;
 	background-repeat: no-repeat;
 	padding-left: 35px;
 	float: left;
 }
-.content .row2 .item .user {
+.row2 .item .user {
 	background-image: url(images/user.png);
 }
-.content .row2 .item .date-of-birth {
+.row2 .item .date-of-birth {
 	background-image: url(images/calendar.png);
 }
-.content .row2 .item .web {
+.row2 .item .web {
 	background-image: url(images/web.png);
 }
-.content .row2 .item .phone {
-	background-image: url(images/phone.png);
+.row2 .item .gender {
+	background-image: url(images/gender.png);
 }
-.content .row2 .item .mail {
-	background-image: url(images/mail.png);
+.row2 .item .place {
+	background-image: url(images/place.png);
 }
-.content .row2 .item .none-background {
-	background-image: none;
-	padding-left: 0;
+.row2 .item .university {
+	background-image: url(images/university.png);
 }
+.education {
+	background-image: url(images/education.png);
+}
+.row3 {
+	margin-top: 24px;
+}
+.unbalance-tow-column .item {
+	overflow: auto;
+	margin-top: 6px;
+}
+.unbalance-tow-column .left {
+	float: left;
+	width: 240px;
+}
+.unbalance-tow-column .right {
+	float: right;
+	width: 660px;
+}
+.unbalance-tow-column .subcaption {
+	font-size: 13px;
+}
+.unbalance-tow-column .left .date {
+	font-weight: lighter;
+	font-size: 12px;
+	color: #999;
+}
+.unbalance-tow-column .right p {
+	color: #999;
+	font-weight: lighter;
+	font-size: 12px;
+	line-height: 20px;
+	text-indent: 2em;
+}
+.row4 {
+	margin-top: 20px;
+}
+.experience {
+	background-image: url(images/experience.png);
+}
+
+
 
