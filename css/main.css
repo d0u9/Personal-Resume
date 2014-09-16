@@ -191,7 +191,7 @@ body {
 	height:8px;
 }
 .mouseover {
-	text-shadow: 1px 1px 1px #444;
+	text-shadow: 1px 1px 1px #AAA;
 }
 .row2 {
 	overflow: auto;
@@ -265,6 +265,75 @@ body {
 }
 .experience {
 	background-image:url(../images/experience.png);
+}
+.row4 .content {
+	overflow:auto;
+	padding: 0;
+	padding-left: 1px;
+	padding-right: 1px;
+	margin: 0;
+	width: 928px;
+	height:300px;
+	padding-top: 8px;
+}
+.row4 .content .column {
+	width: 232px;
+	float: left;
+}
+.row4 .content .column .caption {
+	padding: 0 0 0 36px;
+	margin-bottom: 8px;
+	height: 20px;
+	color: #000000;
+	line-height: 20px;
+	background-image: url(../images/education.png);
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+	border: 0;
+}
+.row4 .content .column .item {
+	font-size: 12px;
+	line-height: 13px;
+	padding-left: 36px;
+	overflow: auto;
+	padding-bottom: 8px;
+	color: #999999;
+}
+.row4 .content .column .words {
+	padding-bottom: 5px;
+}
+.row4 .content .column .rank {
+	font-size: 12px;
+	line-height: 13px;
+	padding-left: 32px;
+}
+.row4 .rank-yes {
+	width: 14px;
+	height: 14px;
+    -moz-border-radius: 7px;      /* Gecko browsers */
+    -webkit-border-radius: 7px;   /* Webkit browsers */
+    border-radius:7px;            /* W3C syntax */
+	background-color: #0099FF;
+	float: left;
+	margin-right: 10px;
+}
+.row4 .rank-no {
+	width: 12px;
+	height: 12px;
+    -moz-border-radius: 7px;      /* Gecko browsers */
+    -webkit-border-radius: 7px;   /* Webkit browsers */
+    border-radius:7px;            /* W3C syntax */
+	border: 1px solid #00FF99;
+	float: left;
+	margin-right: 10px;
+}
+.row4 .content .column1 {
+}
+.row4 .content .column2 {
+}
+.row4 .content .column3 {
+}
+.row4 .content .column4 {
 }
 .skills {
 	background-image:url(../images/skills.png);
